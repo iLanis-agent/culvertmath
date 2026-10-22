@@ -1,0 +1,949 @@
+{
+ "cases": [
+  {
+   "fn": "sections",
+   "args": [
+    "60",
+    "8"
+   ],
+   "expect": "The run of 60 ft takes 8 sections at 8 ft each, leaving 4 ft of the last one."
+  },
+  {
+   "fn": "trench",
+   "args": [
+    "60",
+    "36",
+    "30"
+   ],
+   "expect": "The trench of 60 ft by 36 inches wide by 30 inches deep holds 450 cu ft."
+  },
+  {
+   "fn": "weight",
+   "args": [
+    "150",
+    "100"
+   ],
+   "expect": "The 150 cu ft at 100 pounds a cubic foot weighs 15000 pounds, or 7.5 tons."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "8",
+    "180",
+    "8",
+    "30",
+    "60"
+   ],
+   "expect": "The 8 sections at $180 and the 8 tons at $30 cost $1680.00, or $28.00 a foot over the 60 ft."
+  },
+  {
+   "fn": "sections",
+   "args": [
+    "8520",
+    "15"
+   ],
+   "expect": "The run of 8520 ft takes 568 sections at 15 ft each, with nothing left over."
+  },
+  {
+   "fn": "sections",
+   "args": [
+    "5282",
+    "56"
+   ],
+   "expect": "The run of 5282 ft takes 95 sections at 56 ft each, leaving 38 ft of the last one."
+  },
+  {
+   "fn": "sections",
+   "args": [
+    "8981",
+    "99"
+   ],
+   "expect": "The run of 8981 ft takes 91 sections at 99 ft each, leaving 28 ft of the last one."
+  },
+  {
+   "fn": "sections",
+   "args": [
+    "5577",
+    "70"
+   ],
+   "expect": "The run of 5577 ft takes 80 sections at 70 ft each, leaving 23 ft of the last one."
+  },
+  {
+   "fn": "sections",
+   "args": [
+    "3314",
+    "96"
+   ],
+   "expect": "The run of 3314 ft takes 35 sections at 96 ft each, leaving 46 ft of the last one."
+  },
+  {
+   "fn": "sections",
+   "args": [
+    "387",
+    "84"
+   ],
+   "expect": "The run of 387 ft takes 5 sections at 84 ft each, leaving 33 ft of the last one."
+  },
+  {
+   "fn": "sections",
+   "args": [
+    "1992",
+    "98"
+   ],
+   "expect": "The run of 1992 ft takes 21 sections at 98 ft each, leaving 66 ft of the last one."
+  },
+  {
+   "fn": "sections",
+   "args": [
+    "3724",
+    "18"
+   ],
+   "expect": "The run of 3724 ft takes 207 sections at 18 ft each, leaving 2 ft of the last one."
+  },
+  {
+   "fn": "sections",
+   "args": [
+    "8945",
+    "76"
+   ],
+   "expect": "The run of 8945 ft takes 118 sections at 76 ft each, leaving 23 ft of the last one."
+  },
+  {
+   "fn": "sections",
+   "args": [
+    "5347",
+    "40"
+   ],
+   "expect": "The run of 5347 ft takes 134 sections at 40 ft each, leaving 13 ft of the last one."
+  },
+  {
+   "fn": "sections",
+   "args": [
+    "339",
+    "53"
+   ],
+   "expect": "The run of 339 ft takes 7 sections at 53 ft each, leaving 32 ft of the last one."
+  },
+  {
+   "fn": "sections",
+   "args": [
+    "8923",
+    "64"
+   ],
+   "expect": "The run of 8923 ft takes 140 sections at 64 ft each, leaving 37 ft of the last one."
+  },
+  {
+   "fn": "sections",
+   "args": [
+    "4515",
+    "17"
+   ],
+   "expect": "The run of 4515 ft takes 266 sections at 17 ft each, leaving 7 ft of the last one."
+  },
+  {
+   "fn": "sections",
+   "args": [
+    "8410",
+    "73"
+   ],
+   "expect": "The run of 8410 ft takes 116 sections at 73 ft each, leaving 58 ft of the last one."
+  },
+  {
+   "fn": "sections",
+   "args": [
+    "5214",
+    "86"
+   ],
+   "expect": "The run of 5214 ft takes 61 sections at 86 ft each, leaving 32 ft of the last one."
+  },
+  {
+   "fn": "sections",
+   "args": [
+    "714",
+    "11"
+   ],
+   "expect": "The run of 714 ft takes 65 sections at 11 ft each, leaving 1 ft of the last one."
+  },
+  {
+   "fn": "sections",
+   "args": [
+    "2732",
+    "10"
+   ],
+   "expect": "The run of 2732 ft takes 274 sections at 10 ft each, leaving 8 ft of the last one."
+  },
+  {
+   "fn": "sections",
+   "args": [
+    "7768",
+    "22"
+   ],
+   "expect": "The run of 7768 ft takes 354 sections at 22 ft each, leaving 20 ft of the last one."
+  },
+  {
+   "fn": "sections",
+   "args": [
+    "5167",
+    "99"
+   ],
+   "expect": "The run of 5167 ft takes 53 sections at 99 ft each, leaving 80 ft of the last one."
+  },
+  {
+   "fn": "sections",
+   "args": [
+    "976",
+    "18"
+   ],
+   "expect": "The run of 976 ft takes 55 sections at 18 ft each, leaving 14 ft of the last one."
+  },
+  {
+   "fn": "sections",
+   "args": [
+    "2321",
+    "100"
+   ],
+   "expect": "The run of 2321 ft takes 24 sections at 100 ft each, leaving 79 ft of the last one."
+  },
+  {
+   "fn": "sections",
+   "args": [
+    "6855",
+    "83"
+   ],
+   "expect": "The run of 6855 ft takes 83 sections at 83 ft each, leaving 34 ft of the last one."
+  },
+  {
+   "fn": "sections",
+   "args": [
+    "7179",
+    "32"
+   ],
+   "expect": "The run of 7179 ft takes 225 sections at 32 ft each, leaving 21 ft of the last one."
+  },
+  {
+   "fn": "sections",
+   "args": [
+    "4667",
+    "33"
+   ],
+   "expect": "The run of 4667 ft takes 142 sections at 33 ft each, leaving 19 ft of the last one."
+  },
+  {
+   "fn": "sections",
+   "args": [
+    "4465",
+    "37"
+   ],
+   "expect": "The run of 4465 ft takes 121 sections at 37 ft each, leaving 12 ft of the last one."
+  },
+  {
+   "fn": "trench",
+   "args": [
+    "2128",
+    "65",
+    "184"
+   ],
+   "expect": "The trench of 2128 ft by 65 inches wide by 184 inches deep holds 176742.22 cu ft."
+  },
+  {
+   "fn": "trench",
+   "args": [
+    "5031",
+    "100",
+    "25"
+   ],
+   "expect": "The trench of 5031 ft by 100 inches wide by 25 inches deep holds 87343.75 cu ft."
+  },
+  {
+   "fn": "trench",
+   "args": [
+    "3060",
+    "49",
+    "44"
+   ],
+   "expect": "The trench of 3060 ft by 49 inches wide by 44 inches deep holds 45815 cu ft."
+  },
+  {
+   "fn": "trench",
+   "args": [
+    "6946",
+    "62",
+    "95"
+   ],
+   "expect": "The trench of 6946 ft by 62 inches wide by 95 inches deep holds 284110.69 cu ft."
+  },
+  {
+   "fn": "trench",
+   "args": [
+    "643",
+    "119",
+    "227"
+   ],
+   "expect": "The trench of 643 ft by 119 inches wide by 227 inches deep holds 120620.55 cu ft."
+  },
+  {
+   "fn": "trench",
+   "args": [
+    "7186",
+    "88",
+    "112"
+   ],
+   "expect": "The trench of 7186 ft by 88 inches wide by 112 inches deep holds 491841.78 cu ft."
+  },
+  {
+   "fn": "trench",
+   "args": [
+    "74",
+    "29",
+    "155"
+   ],
+   "expect": "The trench of 74 ft by 29 inches wide by 155 inches deep holds 2309.93 cu ft."
+  },
+  {
+   "fn": "trench",
+   "args": [
+    "8402",
+    "158",
+    "234"
+   ],
+   "expect": "The trench of 8402 ft by 158 inches wide by 234 inches deep holds 2157213.5 cu ft."
+  },
+  {
+   "fn": "trench",
+   "args": [
+    "6816",
+    "159",
+    "13"
+   ],
+   "expect": "The trench of 6816 ft by 159 inches wide by 13 inches deep holds 97838 cu ft."
+  },
+  {
+   "fn": "trench",
+   "args": [
+    "1673",
+    "108",
+    "123"
+   ],
+   "expect": "The trench of 1673 ft by 108 inches wide by 123 inches deep holds 154334.25 cu ft."
+  },
+  {
+   "fn": "trench",
+   "args": [
+    "8111",
+    "168",
+    "166"
+   ],
+   "expect": "The trench of 8111 ft by 168 inches wide by 166 inches deep holds 1570830.33 cu ft."
+  },
+  {
+   "fn": "trench",
+   "args": [
+    "3763",
+    "154",
+    "107"
+   ],
+   "expect": "The trench of 3763 ft by 154 inches wide by 107 inches deep holds 430602.18 cu ft."
+  },
+  {
+   "fn": "trench",
+   "args": [
+    "9038",
+    "192",
+    "144"
+   ],
+   "expect": "The trench of 9038 ft by 192 inches wide by 144 inches deep holds 1735296 cu ft."
+  },
+  {
+   "fn": "trench",
+   "args": [
+    "9971",
+    "61",
+    "112"
+   ],
+   "expect": "The trench of 9971 ft by 61 inches wide by 112 inches deep holds 473068.56 cu ft."
+  },
+  {
+   "fn": "trench",
+   "args": [
+    "2662",
+    "99",
+    "182"
+   ],
+   "expect": "The trench of 2662 ft by 99 inches wide by 182 inches deep holds 333082.75 cu ft."
+  },
+  {
+   "fn": "trench",
+   "args": [
+    "8754",
+    "137",
+    "63"
+   ],
+   "expect": "The trench of 8754 ft by 137 inches wide by 63 inches deep holds 524692.88 cu ft."
+  },
+  {
+   "fn": "trench",
+   "args": [
+    "8528",
+    "96",
+    "9"
+   ],
+   "expect": "The trench of 8528 ft by 96 inches wide by 9 inches deep holds 51168 cu ft."
+  },
+  {
+   "fn": "trench",
+   "args": [
+    "1627",
+    "113",
+    "126"
+   ],
+   "expect": "The trench of 1627 ft by 113 inches wide by 126 inches deep holds 160869.63 cu ft."
+  },
+  {
+   "fn": "trench",
+   "args": [
+    "9910",
+    "147",
+    "14"
+   ],
+   "expect": "The trench of 9910 ft by 147 inches wide by 14 inches deep holds 141630.42 cu ft."
+  },
+  {
+   "fn": "trench",
+   "args": [
+    "1679",
+    "199",
+    "23"
+   ],
+   "expect": "The trench of 1679 ft by 199 inches wide by 23 inches deep holds 53366.55 cu ft."
+  },
+  {
+   "fn": "trench",
+   "args": [
+    "9452",
+    "168",
+    "19"
+   ],
+   "expect": "The trench of 9452 ft by 168 inches wide by 19 inches deep holds 209519.33 cu ft."
+  },
+  {
+   "fn": "trench",
+   "args": [
+    "558",
+    "46",
+    "187"
+   ],
+   "expect": "The trench of 558 ft by 46 inches wide by 187 inches deep holds 33332.75 cu ft."
+  },
+  {
+   "fn": "trench",
+   "args": [
+    "9507",
+    "220",
+    "38"
+   ],
+   "expect": "The trench of 9507 ft by 220 inches wide by 38 inches deep holds 551934.17 cu ft."
+  },
+  {
+   "fn": "trench",
+   "args": [
+    "7637",
+    "155",
+    "42"
+   ],
+   "expect": "The trench of 7637 ft by 155 inches wide by 42 inches deep holds 345256.04 cu ft."
+  },
+  {
+   "fn": "trench",
+   "args": [
+    "5502",
+    "82",
+    "75"
+   ],
+   "expect": "The trench of 5502 ft by 82 inches wide by 75 inches deep holds 234981.25 cu ft."
+  },
+  {
+   "fn": "weight",
+   "args": [
+    "5992235",
+    "30"
+   ],
+   "expect": "The 5992235 cu ft at 30 pounds a cubic foot weighs 179767050 pounds, or 89883.53 tons."
+  },
+  {
+   "fn": "weight",
+   "args": [
+    "11477694",
+    "2"
+   ],
+   "expect": "The 11477694 cu ft at 2 pounds a cubic foot weighs 22955388 pounds, or 11477.69 tons."
+  },
+  {
+   "fn": "weight",
+   "args": [
+    "92588580",
+    "160"
+   ],
+   "expect": "The 92588580 cu ft at 160 pounds a cubic foot weighs 14814172800 pounds, or 7407086.4 tons."
+  },
+  {
+   "fn": "weight",
+   "args": [
+    "11332378",
+    "170"
+   ],
+   "expect": "The 11332378 cu ft at 170 pounds a cubic foot weighs 1926504260 pounds, or 963252.13 tons."
+  },
+  {
+   "fn": "weight",
+   "args": [
+    "13173058",
+    "197"
+   ],
+   "expect": "The 13173058 cu ft at 197 pounds a cubic foot weighs 2595092426 pounds, or 1297546.21 tons."
+  },
+  {
+   "fn": "weight",
+   "args": [
+    "79188701",
+    "134"
+   ],
+   "expect": "The 79188701 cu ft at 134 pounds a cubic foot weighs 10611285934 pounds, or 5305642.97 tons."
+  },
+  {
+   "fn": "weight",
+   "args": [
+    "49995942",
+    "183"
+   ],
+   "expect": "The 49995942 cu ft at 183 pounds a cubic foot weighs 9149257386 pounds, or 4574628.69 tons."
+  },
+  {
+   "fn": "weight",
+   "args": [
+    "5717696",
+    "164"
+   ],
+   "expect": "The 5717696 cu ft at 164 pounds a cubic foot weighs 937702144 pounds, or 468851.07 tons."
+  },
+  {
+   "fn": "weight",
+   "args": [
+    "72155749",
+    "77"
+   ],
+   "expect": "The 72155749 cu ft at 77 pounds a cubic foot weighs 5555992673 pounds, or 2777996.34 tons."
+  },
+  {
+   "fn": "weight",
+   "args": [
+    "95251549",
+    "4"
+   ],
+   "expect": "The 95251549 cu ft at 4 pounds a cubic foot weighs 381006196 pounds, or 190503.1 tons."
+  },
+  {
+   "fn": "weight",
+   "args": [
+    "40407982",
+    "180"
+   ],
+   "expect": "The 40407982 cu ft at 180 pounds a cubic foot weighs 7273436760 pounds, or 3636718.38 tons."
+  },
+  {
+   "fn": "weight",
+   "args": [
+    "52789458",
+    "73"
+   ],
+   "expect": "The 52789458 cu ft at 73 pounds a cubic foot weighs 3853630434 pounds, or 1926815.22 tons."
+  },
+  {
+   "fn": "weight",
+   "args": [
+    "85988718",
+    "165"
+   ],
+   "expect": "The 85988718 cu ft at 165 pounds a cubic foot weighs 14188138470 pounds, or 7094069.24 tons."
+  },
+  {
+   "fn": "weight",
+   "args": [
+    "80115009",
+    "186"
+   ],
+   "expect": "The 80115009 cu ft at 186 pounds a cubic foot weighs 14901391674 pounds, or 7450695.84 tons."
+  },
+  {
+   "fn": "weight",
+   "args": [
+    "98530367",
+    "135"
+   ],
+   "expect": "The 98530367 cu ft at 135 pounds a cubic foot weighs 13301599545 pounds, or 6650799.77 tons."
+  },
+  {
+   "fn": "weight",
+   "args": [
+    "11642997",
+    "75"
+   ],
+   "expect": "The 11642997 cu ft at 75 pounds a cubic foot weighs 873224775 pounds, or 436612.39 tons."
+  },
+  {
+   "fn": "weight",
+   "args": [
+    "64583570",
+    "112"
+   ],
+   "expect": "The 64583570 cu ft at 112 pounds a cubic foot weighs 7233359840 pounds, or 3616679.92 tons."
+  },
+  {
+   "fn": "weight",
+   "args": [
+    "11303129",
+    "69"
+   ],
+   "expect": "The 11303129 cu ft at 69 pounds a cubic foot weighs 779915901 pounds, or 389957.95 tons."
+  },
+  {
+   "fn": "weight",
+   "args": [
+    "93371362",
+    "1"
+   ],
+   "expect": "The 93371362 cu ft at 1 pounds a cubic foot weighs 93371362 pounds, or 46685.68 tons."
+  },
+  {
+   "fn": "weight",
+   "args": [
+    "28235659",
+    "113"
+   ],
+   "expect": "The 28235659 cu ft at 113 pounds a cubic foot weighs 3190629467 pounds, or 1595314.73 tons."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "59522",
+    "9592.22",
+    "915177",
+    "1221.24",
+    "4838"
+   ],
+   "expect": "The 59522 sections at $9592.22 and the 915177 tons at $1221.24 cost $1688598878.32, or $349028.29 a foot over the 4838 ft."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "27417",
+    "5292.25",
+    "992270",
+    "9918.82",
+    "3233"
+   ],
+   "expect": "The 27417 sections at $5292.25 and the 992270 tons at $9918.82 cost $9987245139.65, or $3089157.17 a foot over the 3233 ft."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "30859",
+    "4570.22",
+    "506151",
+    "5614.99",
+    "9075"
+   ],
+   "expect": "The 30859 sections at $4570.22 and the 506151 tons at $5614.99 cost $2983065222.47, or $328712.42 a foot over the 9075 ft."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "50389",
+    "5833.4",
+    "476647",
+    "3908.47",
+    "4769"
+   ],
+   "expect": "The 50389 sections at $5833.4 and the 476647 tons at $3908.47 cost $2156899692.69, or $452275.05 a foot over the 4769 ft."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "94815",
+    "9543.39",
+    "833798",
+    "6521.49",
+    "8078"
+   ],
+   "expect": "The 94815 sections at $9543.39 and the 833798 tons at $6521.49 cost $6342461841.87, or $785152.49 a foot over the 8078 ft."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "9825",
+    "3243.91",
+    "647656",
+    "1880.48",
+    "3644"
+   ],
+   "expect": "The 9825 sections at $3243.91 and the 647656 tons at $1880.48 cost $1249775570.63, or $342968.05 a foot over the 3644 ft."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "22702",
+    "3088.88",
+    "817968",
+    "5046.67",
+    "6659"
+   ],
+   "expect": "The 22702 sections at $3088.88 and the 817968 tons at $5046.67 cost $4198138320.32, or $630445.76 a foot over the 6659 ft."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "98324",
+    "2693.92",
+    "846036",
+    "6643.36",
+    "4104"
+   ],
+   "expect": "The 98324 sections at $2693.92 and the 846036 tons at $6643.36 cost $5885398711.04, or $1434064.01 a foot over the 4104 ft."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "52292",
+    "3821.81",
+    "254282",
+    "443.02",
+    "7882"
+   ],
+   "expect": "The 52292 sections at $3821.81 and the 254282 tons at $443.02 cost $312502100.16, or $39647.56 a foot over the 7882 ft."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "85245",
+    "4756.15",
+    "280714",
+    "5868.44",
+    "5259"
+   ],
+   "expect": "The 85245 sections at $4756.15 and the 280714 tons at $5868.44 cost $2052791272.91, or $390338.71 a foot over the 5259 ft."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "55925",
+    "5178.62",
+    "163062",
+    "3894.28",
+    "6985"
+   ],
+   "expect": "The 55925 sections at $5178.62 and the 163062 tons at $3894.28 cost $924623408.86, or $132372.71 a foot over the 6985 ft."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "1896",
+    "3177.53",
+    "349438",
+    "1074.04",
+    "8789"
+   ],
+   "expect": "The 1896 sections at $3177.53 and the 349438 tons at $1074.04 cost $381334986.40, or $43387.76 a foot over the 8789 ft."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "15393",
+    "6440.87",
+    "263068",
+    "3870.91",
+    "3898"
+   ],
+   "expect": "The 15393 sections at $6440.87 and the 263068 tons at $3870.91 cost $1117456863.79, or $286674.41 a foot over the 3898 ft."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "99048",
+    "6092.17",
+    "404958",
+    "5244.63",
+    "8479"
+   ],
+   "expect": "The 99048 sections at $6092.17 and the 404958 tons at $5244.63 cost $2727272129.70, or $321650.21 a foot over the 8479 ft."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "77627",
+    "7799.26",
+    "434368",
+    "3867.79",
+    "8408"
+   ],
+   "expect": "The 77627 sections at $7799.26 and the 434368 tons at $3867.79 cost $2285477362.74, or $271821.76 a foot over the 8408 ft."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "17660",
+    "4645.26",
+    "626667",
+    "4678.44",
+    "5402"
+   ],
+   "expect": "The 17660 sections at $4645.26 and the 626667 tons at $4678.44 cost $3013859251.08, or $557915.45 a foot over the 5402 ft."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "67537",
+    "7573.23",
+    "599742",
+    "6961.79",
+    "4777"
+   ],
+   "expect": "The 67537 sections at $7573.23 and the 599742 tons at $6961.79 cost $4686751092.69, or $981107.62 a foot over the 4777 ft."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "92928",
+    "1364.56",
+    "294849",
+    "4273.43",
+    "3931"
+   ],
+   "expect": "The 92928 sections at $1364.56 and the 294849 tons at $4273.43 cost $1386822393.75, or $352791.25 a foot over the 3931 ft."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "22518",
+    "3279.73",
+    "558223",
+    "6676.04",
+    "8025"
+   ],
+   "expect": "The 22518 sections at $3279.73 and the 558223 tons at $6676.04 cost $3800572037.06, or $473591.53 a foot over the 8025 ft."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "94922",
+    "9709.2",
+    "903478",
+    "2115.6",
+    "7893"
+   ],
+   "expect": "The 94922 sections at $9709.2 and the 903478 tons at $2115.6 cost $2833014739.20, or $358927.50 a foot over the 7893 ft."
+  }
+ ],
+ "errors": [
+  [
+   "sections",
+   [
+    "0",
+    "8"
+   ]
+  ],
+  [
+   "sections",
+   [
+    "60",
+    "0"
+   ]
+  ],
+  [
+   "trench",
+   [
+    "0",
+    "36",
+    "30"
+   ]
+  ],
+  [
+   "trench",
+   [
+    "60",
+    "0",
+    "30"
+   ]
+  ],
+  [
+   "trench",
+   [
+    "60",
+    "36",
+    "0"
+   ]
+  ],
+  [
+   "weight",
+   [
+    "0",
+    "100"
+   ]
+  ],
+  [
+   "weight",
+   [
+    "150",
+    "0"
+   ]
+  ],
+  [
+   "cost",
+   [
+    "0",
+    "180",
+    "8",
+    "30",
+    "60"
+   ]
+  ],
+  [
+   "cost",
+   [
+    "8",
+    "0",
+    "8",
+    "30",
+    "60"
+   ]
+  ],
+  [
+   "cost",
+   [
+    "8",
+    "180",
+    "0",
+    "30",
+    "60"
+   ]
+  ],
+  [
+   "cost",
+   [
+    "8",
+    "180",
+    "8",
+    "0",
+    "60"
+   ]
+  ],
+  [
+   "cost",
+   [
+    "8",
+    "180",
+    "8",
+    "30",
+    "0"
+   ]
+  ]
+ ]
+}
